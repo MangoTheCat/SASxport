@@ -33,7 +33,7 @@ Author: Unless otherwise noted, the contents of this package were written by
     --
     The creation of this package was partially funded by Metrum Institute
     <http://metruminstitute.org>.
-Maintainer: Gabor Csardi <gcsardi@mango-solutions.com>
+Maintainer: Owen Jones <ojones@mango-solutions.com>
 License: GPL-2
 Depends:
     R (>= 2.4.0)
@@ -43,7 +43,7 @@ Imports:
     utils
 URL: https://github.com/mangothecat/SASxport
 BugReports: https://github.com/mangothecat/SASxport/issues
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Collate:
     'AFirst_lib.R'
     'SASformat.R'
