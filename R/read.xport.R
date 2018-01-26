@@ -74,7 +74,7 @@ read.xport <- function(file,
     scat("Extracting data file information...")
     dsinfo <- lookup.xport.inner(file)
     
-    dsLabels <- sapply(dsinfo, label)
+    dsLabels <- sapply(dsinfo, Hmisc::label)
     dsTypes  <- sapply(dsinfo, SAStype)
     
     if (length(keep)) {
@@ -159,8 +159,8 @@ read.xport <- function(file,
         
         scat('.')
         
-        label(w, self = TRUE)   <- dsLabels[k]
-        names(label(w, self = TRUE)) <- NULL
+        Hmisc::label(w, self = TRUE)   <- dsLabels[k]
+        names(Hmisc::label(w, self = TRUE)) <- NULL
         SAStype(w) <- dsTypes[k]
         names(SAStype(w)) <- NULL
         
@@ -233,7 +233,7 @@ read.xport <- function(file,
                 if (!is.null(lz) &&
                     length(lz) > 0 && !is.na(lz) && lz != '') {
                     names(lz) <- NULL
-                    label(x)  <- lz
+                    Hmisc::label(x)  <- lz
                     changed   <- TRUE
                 }
                 
