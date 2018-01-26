@@ -4,7 +4,7 @@
 #' @export
 
 write.xport <- function(...,
-                        list = list(),
+                        list = base::list(),
                         file = stop("'file' must be specified"),
                         verbose = FALSE,
                         sasVer = "7.00",
@@ -26,7 +26,7 @@ write.xport <- function(...,
     }
     
     ## Handle '...' ##
-    dotList <- list(...)
+    dotList <- base::list(...)
     dotNames <- names(dotList)
     
     if (is.null(dotNames)) {
