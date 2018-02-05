@@ -13,7 +13,7 @@
 This package provides functions for reading, listing
 the contents of, and writing SAS xport format files.
 The functions support reading and writing of either
-individual data frames or sets of data frames.  Further,
+individual data frames or sets of data frames. Further,
 a mechanism has been provided for customizing how
 variables of different data types are stored.
 
@@ -50,7 +50,7 @@ constraints:
   floating point format (see the reference).
 * Date and time variables are either converted to number of
   days since 1960-01-01 (date only), or number of seconds since
-  1960-01-01:00:00:00 GMT (date-time variables).
+  1960-01-01 00:00:00 GMT (date-time variables).
 * Missing values are converted to the standard SAS missing
   value `.`
 
@@ -58,7 +58,7 @@ The SAS XPORT format allows each dataset to have a label and a
 type (set via the `label` and `SAStype` functions).  In addition,
 each variable may have a corresponding label, display format, and
 input format.  To set these values, add the attribute `label`,
-`SASformat`, or `SASiformat` to individual data frame.  These
+`SASformat`, or `SASiformat` to individual data frames.  These
 attributes may be set using the `label`, `SASformat`, and
 `SASiformat` functions. (See examples in the package.)
 
