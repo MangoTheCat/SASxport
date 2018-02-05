@@ -1,3 +1,13 @@
+Version 1.5.4 - 2018-01-29
+--------------------------
+
+Bug fixes:
+
+- Methods associated with "Hmisc::label" are no longer imported explicitly
+- Code flow improved in places
+- Maintainer details updated: Owen Jones <ojones@mango-solutions.com>
+
+
 Version 1.5.0 - 2014-07-21
 --------------------------
 
