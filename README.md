@@ -1,14 +1,17 @@
+# SASxport - Read and Write SAS XPORT Files
 
-# SASxport
-
-> Read and Write SAS XPORT Files
+> This package is actively maintained and developed at the following location: [https://github.com/warnes/SASxport](https://github.com/warnes/SASxport)
 
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![Linux Build Status](https://travis-ci.org/MangoTheCat/SASxport.svg?branch=master)](https://travis-ci.org/MangoTheCat/SASxport)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/MangoTheCat/SASxport?svg=true)](https://ci.appveyor.com/project/gaborcsardi/SASxport)
+[![Linux Build Status](https://travis-ci.org/warnes/SASxport.svg?branch=master)](https://travis-ci.org/warnes/SASxport)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/warnes/SASxport?svg=true&passingText=Windows%20build%20-%20passing&pendingText=Windows%20build%20-%20pending&failingText=Windows%20build%20-%20failing)](https://ci.appveyor.com/project/warnes/SASxport)
 [![](http://www.r-pkg.org/badges/version/SASxport)](http://www.r-pkg.org/pkg/SASxport)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/SASxport)](http://www.r-pkg.org/pkg/SASxport)
-[![Coverage Status](https://img.shields.io/codecov/c/github/MangoTheCat/SASxport/master.svg)](https://codecov.io/github/MangoTheCat/SASxport?branch=master)
+[![Coverage Status](https://codecov.io/gh/warnes/SASxport/branch/master/graph/badge.svg)](https://codecov.io/gh/warnes/SASxport)
+
+<!--- The current version of Pandoc used with RStudio doesn't handle this properly.  Try again in the next version. ---!>
+<!--- [![Linux Build Status](https://img.shields.io/travis/warnes/SASxport.svg?label=Linux)](https://travis-ci.org/warnes/SASxport)
+--->
 
 This package provides functions for reading, listing
 the contents of, and writing SAS xport format files.
@@ -19,8 +22,16 @@ variables of different data types are stored.
 
 ## Installation
 
+### From CRAN
+
 ```r
-devtools::install_github("mangothecat/SASxport")
+install.packages("SASxport")
+```
+
+### From GitHub 
+
+```r
+devtools::install_github("warnes/SASxport")
 ```
 
 ## Usage
