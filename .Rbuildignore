@@ -1,5 +1,0 @@
-^.travis.yml$
-^appveyor.yml$
-^README.md$
-^.*\.Rproj$
-^\.Rproj\.user$
