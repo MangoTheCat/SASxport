@@ -1,3 +1,0 @@
-
-#' @useDynLib SASxport
-NULL
